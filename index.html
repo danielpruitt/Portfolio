@@ -21,15 +21,15 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
             </a>
-            <ul class="right hide-on-med-and-down">
+            <ul class="right hide-on-med-and-down ">
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#">Skills</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
 
             </ul>
@@ -38,13 +38,13 @@
 
     <ul class="sidenav" id="mobile-demo">
         <li>
-            <a href="#">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-            <a href="#">Skills</a>
+            <a href="#skills">Skills</a>
         </li>
         <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
         </li>
 
     </ul>
@@ -56,8 +56,9 @@
     </div>
 
     <div class="section grey darken-4">
-        <div class="row container">
+        <div class="row container portContainer scrollspy section" id="portfolio">
             <h2 class="header">Portfolio</h2>
+            <h5>These projects have been created by Daniel Pruitt for personal use and the Georgia Tech Coding Bootcamp.</h5>
             <div class="carousel">
                 <a class="carousel-item" href="https://danielpruitt.github.io/Moodify/" target="blank">
                     <img src="assets/css/images/moodify_logo.jpeg" class="carouselSize">
@@ -78,9 +79,6 @@
                     <img src="assets/css/images/empire.jpg" class="carouselSize">
                 </a>
             </div>
-            <div>
-                <h5>These projects have been created by Daniel Pruitt for personal use and the Georgia Tech Coding Bootcamp.</h5>
-            </div>
         </div>
     </div>
 
@@ -91,11 +89,17 @@
     </div>
 
     <div class="section grey darken-4">
-        <div class="row container">
+        <div class="row container portContainer section scrollspy" id="skills">
             <h2 class="header">Skills</h2>
-            <div>
-                <h5>A list of skills that have been acquired.</h5>
-            </div>
+            <h5>A list of skills that have been acquired.</h5>
+                <div class="carousel">
+                    <img src="assets/css/images/html5.png" class="carousel-item carouselSize">
+                    <img src="assets/css/images/css3.png" class="carousel-item carouselSize">
+                    <img src="assets/css/images/javascriptlogo.png" class="carousel-item carouselSize">
+                    <img src="assets/css/images/jquery.png" class="carousel-item carouselSize">
+                    <img src="assets/css/images/firebase.png" class="carousel-item carouselSize">
+                    <img src="assets/css/images/nodejs.png" class="carousel-item carouselSize">
+                </div>
         </div>
     </div>
 
@@ -106,7 +110,7 @@
     </div>
 
     <div class="section grey darken-4">
-        <div class="row container">
+        <div class="row container section scrollspy" id="contact">
             <h2 class="header">Contact</h2>
             <div>
                 <h5>email:danielpruitt6@gmail.com</h5>

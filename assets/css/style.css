@@ -2,11 +2,19 @@
     background-color:#FF6840
 }
 
+.portContainer{
+    height:390px
+}
 .carouselSize{
     height:250px;
     width:250px;
+    margin-top:-120px
 }
 
 h2, h5 {
     color:#fdfdfd
+}
+
+.skillContainer {
+    height:390px
 }
