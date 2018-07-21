@@ -15,28 +15,35 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper grey darken-4">
-            <a href="#!" class="brand-logo">Logo</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down ">
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-
-            </ul>
-        </div>
-    </nav>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+                <a src="assets/css/images/Daniel_Pruitt_logo.png" class="brand-logo"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down ">
+                    <li>
+                        <a href="#aboutMe">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="#aboutMe">About Me</a>
+        </li>
         <li>
             <a href="#portfolio">Portfolio</a>
         </li>
@@ -48,6 +55,35 @@
         </li>
 
     </ul>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/css/images/mountains6.jpg">
+        </div>
+    </div>
+
+    <div class="section grey darken-4">
+        <div class="row container portContainer section scrollspy" id="aboutMe">
+            <h2 class="header">About Me</h2>
+            <div class="col s5">
+                <img=" " alt="image placeholder" class="">
+            </div>
+            <div class="col s7">
+                <p>A full stack web developer and perpetual learner, I have been teaching myself code and develop prior to formal
+                    classroom learning of full stack development. Teamwork and collaboration have been a consistent and necessary
+                    action to execute the goal of any team I have been on. The world of coding and web development has opened
+                    my mind to explore the extensive use of this technology to bring the ultimate experience to the user.
+                </p>
+                <p></p>
+                <button class="btn waves-effect btn-large deep-orange darken-4 waves-orange" type="submit" name="action">Resume
+                    <i class="material-icons right">file_download</i>
+                    <a href="assets/pdf/DanielPruittResume2018.pdf" download="Resume" ></a>
+                </button>
+
+            </div>
+
+        </div>
+    </div>
 
     <div class="parallax-container">
         <div class="parallax">
@@ -92,14 +128,14 @@
         <div class="row container portContainer section scrollspy" id="skills">
             <h2 class="header">Skills</h2>
             <h5>A list of skills that have been acquired.</h5>
-                <div class="carousel">
-                    <img src="assets/css/images/html5.png" class="carousel-item carouselSize">
-                    <img src="assets/css/images/css3.png" class="carousel-item carouselSize">
-                    <img src="assets/css/images/javascriptlogo.png" class="carousel-item carouselSize">
-                    <img src="assets/css/images/jquery.png" class="carousel-item carouselSize">
-                    <img src="assets/css/images/firebase.png" class="carousel-item carouselSize">
-                    <img src="assets/css/images/nodejs.png" class="carousel-item carouselSize">
-                </div>
+            <div class="carousel">
+                <img src="assets/css/images/html5.png" class="carousel-item carouselSize">
+                <img src="assets/css/images/css3.png" class="carousel-item carouselSize">
+                <img src="assets/css/images/javascriptlogo.png" class="carousel-item carouselSize">
+                <img src="assets/css/images/jquery.png" class="carousel-item carouselSize">
+                <img src="assets/css/images/firebase.png" class="carousel-item carouselSize">
+                <img src="assets/css/images/nodejs.png" class="carousel-item carouselSize">
+            </div>
         </div>
     </div>
 
