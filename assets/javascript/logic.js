@@ -1,22 +1,26 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.parallax').parallax();
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
     $('.sidenav').sidenav();
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
     $('.carousel').carousel();
 });
 
 
-$(document).ready(function(){
+$(document).ready(function () {
     $('.tooltipped').tooltip();
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
     $('.scrollspy').scrollSpy();
+});
+
+$(document).ready(function () {
+    $('.modal').modal();
 });
 
 

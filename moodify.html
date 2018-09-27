@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daniel Pruitt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="assets/javascript/logic.js"></script>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+                <img src="assets/css/images/Daniel_Pruitt_logo.png" class="brand-logo myLogo">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down ">
+                    <li>
+                        <a href="#aboutMe">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="#aboutMe">About Me</a>
+        </li>
+        <li>
+            <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+    </ul>
+    <div class="parallax-container">
+            <div class="parallax">
+                <img src="assets/css/images/mountains6.jpg">
+            </div>
+        </div>
+
+    <div class="section grey darken-4">
+        <div class="container   scrollspy" id="aboutMe">
+            <h2 class="header">Moodify</h2>
+            
+            <div class="row">
+                <div class="col s12">
+                    <p> Moodify is a Front End Web App that allows a user to submit their "mood", via facial recognition software or input, to return Spotify playlists which can be played in the webplayer. This project was built to display the use of AJAX calls, an understanding separate APIs, incorporation of Google Firebase, and building a responsive Web App with a CSS library.
+                    </p>
+                    <p>
+                        How it works: 
+                        We used the Kairos API to capture the user's mood with their facial recognition software. In order to accomplish this, our logic uses the device's camera to capture an image which is then sent to the Imgur API to return a weblink that the Kairos API can read. Once Kairos receives the image, we parse through the JSON to find the Emotion category which is given in another object that scores 6 different emotions. The emotion with the greatest value is the emotion we pass into the Spotify API to return 20 playlists. The playlists are displayed in a carousel and when double clicking on a playlist the Spotify Web Player opens in the page and the songs can be played (full song if signed into a Spotify account, otherwise a 30 second preview). 
+
+                        If the camera is not utilized a search bar will send the input to the Spotify API to be used as well.
+                    </p>
+
+                    <div class="row"> 
+                        <ul class="col s6">
+                            <li>Kairos API: Facial Recognition</li>
+                            <li>Spotify API: Retrieve Playlists and Songs</li>
+                            <li>Imgur API: Send image links to Kairos</li>
+                            <li>Google Firebase: Store Client Id and Client Secret in the logic</li>
+                            <li>Materialize: CSS library for responsiveness</li>
+                        </ul>
+
+                        <div class="col s6">
+                            <p>Additional Notes: </p>
+                            <p>Since building and deploying this project, the Kairos API went from free usage to a paid subscription. We are looking into other facial recognition APIs to restore the camera usage.</p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+</body>

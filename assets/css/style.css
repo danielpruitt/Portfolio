@@ -16,11 +16,14 @@
 }
 
 
-h2, h5, p {
+h2, h5, p, li {
     color:#fdfdfd
 }
 
-
+.modal-content {
+    
+    background-color: #fdfdfd
+}
 .skillContainer {
     height:390px
 }
