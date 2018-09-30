@@ -17,7 +17,8 @@
 
 
 h2, h5, p, li {
-    color:#fdfdfd
+    color:#fdfdfd;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 
 .modal-content {
